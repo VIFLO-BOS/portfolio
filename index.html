@@ -1,0 +1,1166 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <!-- Primary Meta Tags -->
+  <title>Bankole Olaniyi Sunday | Full-Stack Developer & AI Training Specialist</title>
+  <meta name="title" content="Bankole Olaniyi Sunday | Full-Stack Developer & AI Training Specialist" />
+  <meta name="description" content="Full-Stack Web Developer with 3+ years experience specializing in AI training infrastructure, mobile development with React Native, n8n Automation, Docker, Node.js, and PostgreSQL." />
+  <meta name="keywords" content="Bankole Olaniyi Sunday, Full-Stack Developer, Frontend Developer, Backend Developer, AI Training Infrastructure, React Native, React, Node.js, n8n, Automation, PostgreSQL, Web Development, Nigeria" />
+  <meta name="author" content="Bankole Olaniyi Sunday" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bankole-olaniyi-portfolio.com/" />
+  <meta property="og:title" content="Bankole Olaniyi Sunday | Full-Stack Developer & AI Specialist" />
+  <meta property="og:description" content="Expert Full-Stack Web Developer specialized in AI training infrastructure, React Native mobile apps, and enterprise workflow automation." />
+  <meta property="og:image" content="./images/af.png" />
+
+  <!-- Twitter / X -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://bankole-olaniyi-portfolio.com/" />
+  <meta property="twitter:title" content="Bankole Olaniyi Sunday | Full-Stack Developer & AI Specialist" />
+  <meta property="twitter:description" content="Expert Full-Stack Web Developer specialized in AI training infrastructure, React Native mobile apps, and enterprise workflow automation." />
+  <meta property="twitter:image" content="./images/af.png" />
+
+  <!-- Canonical URL (Replace with actual domain) -->
+  <link rel="canonical" href="https://bankole-olaniyi-portfolio.com/" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./images/af.png" />
+  <link rel="apple-touch-icon" href="./images/af.png" />
+
+  <!-- Typography & Styling -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./tailwind.config.js"></script>
+</head>
+
+<body class="bg-slate-950 text-slate-200 font-sans antialiased overflow-x-hidden">
+  <!-- *************************************************************************
+       NAVIGATION SECTION
+       ************************************************************************* -->
+  <nav id="navbar"
+    class="fixed w-full z-50 transition-all duration-300 bg-slate-950/80 backdrop-blur-md border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16">
+        <div class="flex-shrink-0 flex items-center gap-2 ring-1 ring-white/20 p-1.5 rounded-lg bg-white/10">
+          <div
+            class="w-10 h-10 rounded-lg bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center">
+            <span class="text-white font-bold text-lg font-display">B</span>
+          </div>
+          <span class="font-display font-bold text-xl text-white">O<span class="text-primary-400">.Dev</span></span>
+        </div>
+
+        <div class="hidden md:flex space-x-8">
+          <a href="#about" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">About</a>
+          <a href="#skills" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Skills</a>
+          <a href="#projects" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Projects</a>
+          <a href="#experience"
+            class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Experience</a>
+          <a href="#contact" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Contact</a>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adeniyisunday2244@gmail.com" target="_blank"
+            class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary-600 hover:bg-primary-500 text-white text-sm font-medium transition-all hover:scale-105">
+            <i data-lucide="mail" class="w-4 h-4"></i>
+            Hire Me
+          </a>
+          <button id="mobile-menu-btn" class="md:hidden text-slate-300 hover:text-white">
+            <i data-lucide="menu" class="w-6 h-6"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden bg-slate-900 border-t border-white/5">
+      <div class="px-4 pt-2 pb-6 space-y-1">
+        <a href="#about"
+          class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-white/5">About</a>
+        <a href="#skills"
+          class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-white/5">Skills</a>
+        <a href="#projects"
+          class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-white/5">Projects</a>
+        <a href="#experience"
+          class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-white/5">Experience</a>
+        <a href="#contact"
+          class="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-white/5">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- *************************************************************************
+       HERO SECTION
+       ************************************************************************* -->
+  <section class="relative min-h-screen flex items-center justify-center hero-gradient pt-16 overflow-hidden">
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+      <div class="absolute top-20 left-10 w-72 h-72 bg-primary-500/20 rounded-full blur-3xl animate-pulse-slow"></div>
+      <div class="absolute bottom-20 right-10 w-96 h-96 bg-accent-500/20 rounded-full blur-3xl animate-pulse-slow"
+        style="animation-delay: 2s"></div>
+      <div
+        class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-gradient-to-r from-primary-500/10 to-accent-500/10 rounded-full blur-3xl">
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+        <div
+          class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 mb-8 animate-float">
+          <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse"></span>
+          <span class="text-sm font-medium text-slate-300">Available for Full-Stack, Mobile & AI Infrastructure
+            Roles</span>
+        </div>
+
+        <h1
+          class="font-display text-4xl sm:text-5xl lg:text-6xl tracking-tight font-bold text-white mb-6 leading-tight">
+          Building <span class="gradient-text">AI Training</span><br />
+          Infrastructure &<br />
+          Full-Stack Solutions
+        </h1>
+
+        <p class="max-w-2xl mx-auto text-sm sm:text-base text-slate-400 mb-10 leading-relaxed">
+          Full-Stack Developer with
+          <strong class="text-white">3+ years</strong> in web development and
+          <strong class="text-white">2+ years</strong> in AI training. Expert
+          in <strong class="text-white">React Native</strong>,
+          <strong class="text-white">n8n Automation</strong>,
+          <strong class="text-white">Docker</strong>, and modern web
+          technologies.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+          <a href="#projects"
+            class="inline-flex items-center justify-center gap-2 px-5 py-2.5 sm:px-6 sm:py-3 rounded-lg bg-gradient-to-r from-primary-600 to-accent-600 text-white font-semibold text-lg hover:shadow-lg hover:shadow-primary-500/25 transition-all hover:scale-105">
+            View Projects
+            <i data-lucide="arrow-right" class="w-5 h-5"></i>
+          </a>
+          <a href="www.linkedin.com/in/bankole-olaniyi-427b34291" target="_blank"
+            class="inline-flex items-center justify-center gap-2 px-5 py-2.5 sm:px-6 sm:py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm sm:text-base hover:bg-white/10 transition-all">
+            <i class="w-5 h-5"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-linkedin"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+            </svg></i>
+            LinkedIn
+          </a>
+          <a href="#"
+            class="inline-flex items-center justify-center gap-2 px-5 py-2.5 sm:px-6 sm:py-3 rounded-lg bg-white/5 border border-white/10 text-white font-semibold text-sm sm:text-base hover:bg-white/10 transition-all mt-4 sm:mt-0">
+            <i data-lucide="download" class="w-5 h-5"></i>
+            Resume
+          </a>
+        </div>
+
+        <!-- <div class="flex flex-wrap justify-center gap-4 max-w-3xl mx-auto mb-8">
+          <a href="#"
+            class="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-green-500 hover:border-green-500 transition-all"><i
+              data-lucide="phone" class="w-5 h-5"></i></a>
+          <a href="#"
+            class="w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 hover:text-blue-500 hover:border-blue-500 transition-all"><i
+              data-lucide="facebook" class="w-5 h-5"></i></a>
+        </div> -->
+        <div class="flex flex-wrap justify-center gap-3 max-w-3xl mx-auto">
+          <span
+            class="px-4 py-2 rounded-md bg-white/5 border border-white/10 text-xs sm:text-sm text-slate-300 flex items-center gap-2">
+            <i data-lucide="smartphone" class="w-4 h-4 text-primary-400"></i>
+            React Native
+          </span>
+          <span
+            class="px-4 py-2 rounded-md bg-white/5 border border-white/10 text-xs sm:text-sm text-slate-300 flex items-center gap-2">
+            <i data-lucide="code-2" class="w-4 h-4 text-accent-400"></i>
+            React/Expo
+          </span>
+          <span
+            class="px-4 py-2 rounded-md bg-white/5 border border-white/10 text-xs sm:text-sm text-slate-300 flex items-center gap-2">
+            <i data-lucide="container" class="w-4 h-4 text-green-400"></i>
+            Docker
+          </span>
+          <span
+            class="px-4 py-2 rounded-md bg-white/5 border border-white/10 text-xs sm:text-sm text-slate-300 flex items-center gap-2">
+            <i data-lucide="workflow" class="w-4 h-4 text-purple-400"></i> n8n
+          </span>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-center relative">
+        <img src="./images/af.png" alt="bankole"
+          class="w-full max-w-sm md:max-w-md lg:max-w-lg object-contain drop-shadow-[0_20px_50px_rgba(20,184,166,0.15)] transition-transform duration-700 hover:scale-1011"
+          style="-webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%), linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%); -webkit-mask-composite: source-in; mask-image: linear-gradient(to bottom, black 80%, transparent 100%), linear-gradient(to right, transparent 0%, black 20%, black 80%, transparent 100%); mask-composite: intersect;" />
+      </div>
+    </div>
+  </section>
+  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+    <i data-lucide="chevron-down" class="w-6 h-6 text-slate-500"></i>
+  </div>
+
+  <!-- *************************************************************************
+       ABOUT SECTION
+       ************************************************************************* -->
+  <section id="about" class="py-24 bg-slate-950 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
+        <div class="reveal">
+          <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-white mb-6">
+            About <span class="gradient-text">Me</span>
+          </h2>
+          <div class="space-y-4 text-slate-400 leading-relaxed">
+            <p>
+              I'm a
+              <strong class="text-white">Full-Stack Developer</strong>
+              specializing in AI training infrastructure with 3+ years of web
+              development experience and 2+ years in AI training data
+              annotation.
+            </p>
+            <p>
+              Currently building
+              <strong class="text-primary-400">Annotrix</strong>, an MVP
+              training platform designed to onboard and qualify AI data
+              annotators. Expert in React Native development, n8n workflow
+              automation, Docker containerization, and cross-platform mobile
+              solutions.
+            </p>
+            <p>
+              With experience in customer service, marketing, and team
+              management, I bring a unique perspective to technical
+              projects—combining technical expertise with strong communication
+              and organizational skills.
+            </p>
+          </div>
+
+          <div class="mt-8 grid grid-cols-3 gap-4">
+            <div class="text-center p-4 rounded-xl bg-white/5 border border-white/10">
+              <div class="text-3xl font-bold text-white mb-1">3+</div>
+              <div class="text-sm text-slate-400">Years Web Dev</div>
+            </div>
+            <div class="text-center p-4 rounded-xl bg-white/5 border border-white/10">
+              <div class="text-3xl font-bold text-white mb-1">2+</div>
+              <div class="text-sm text-slate-400">Years AI Training</div>
+            </div>
+            <div class="text-center p-4 rounded-xl bg-white/5 border border-white/10">
+              <div class="text-3xl font-bold text-white mb-1">1000+</div>
+              <div class="text-sm text-slate-400">Tasks Completed</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative reveal">
+          <div class="absolute inset-0 bg-gradient-to-r from-primary-500 to-accent-500 rounded-xl blur-2xl opacity-20">
+          </div>
+          <div class="relative glass-card rounded-xl p-6 lg:p-8">
+            <div class="grid grid-cols-2 gap-4">
+              <div class="space-y-4">
+                <div class="bg-slate-900/50 rounded-xl p-4 border border-white/5">
+                  <i data-lucide="map-pin" class="w-6 h-6 text-primary-400 mb-2"></i>
+                  <div class="text-sm text-slate-400">Location</div>
+                  <div class="text-white font-medium">
+                    Ile-Ife, Osun State, Nigeria
+                  </div>
+                </div>
+                <div class="bg-slate-900/50 rounded-xl p-4 border border-white/5">
+                  <i data-lucide="graduation-cap" class="w-6 h-6 text-accent-400 mb-2"></i>
+                  <div class="text-sm text-slate-400">Education</div>
+                  <div class="text-white font-medium">
+                    B.LIS, Kwara State University
+                  </div>
+                </div>
+              </div>
+              <div class="space-y-4 mt-8">
+                <div class="bg-slate-900/50 rounded-xl p-4 border border-white/5">
+                  <i data-lucide="briefcase" class="w-6 h-6 text-green-400 mb-2"></i>
+                  <div class="text-sm text-slate-400">Experience</div>
+                  <div class="text-white font-medium">
+                    Web Dev, AI Training, Customer Service
+                  </div>
+                </div>
+                <div class="bg-slate-900/50 rounded-xl p-4 border border-white/5">
+                  <i data-lucide="award" class="w-6 h-6 text-yellow-400 mb-2"></i>
+                  <div class="text-sm text-slate-400">Certifications</div>
+                  <div class="text-white font-medium">
+                    Cisco, Saylor, Alison
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- *************************************************************************
+       SKILLS SECTION
+       ************************************************************************* -->
+  <section id="skills" class="py-24 bg-slate-900/50 relative overflow-hidden">
+    <div
+      class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary-500/5 via-transparent to-transparent">
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div class="text-center mb-16 reveal">
+        <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-white mb-4">
+          Technical <span class="gradient-text">Skills</span>
+        </h2>
+        <p class="text-slate-400 max-w-2xl mx-auto">
+          Full-stack expertise with mobile development, AI training
+          infrastructure, and workflow automation
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="reveal glass-card rounded-xl p-6 hover:border-primary-500/30 transition-all duration-300">
+          <div class="w-12 h-12 rounded-xl bg-primary-500/20 flex items-center justify-center mb-4">
+            <i data-lucide="layout" class="w-6 h-6 text-primary-400"></i>
+          </div>
+          <h3 class="font-display text-lg font-bold text-white mb-4">
+            Frontend
+          </h3>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">React.js</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">Next.js</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">JavaScript
+              (ES6+)</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">Tailwind
+              CSS</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">Framer
+              Motion</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">Material
+              UI</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">Bootstrap</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">Figma-to-Code</span>
+          </div>
+        </div>
+
+        <div class="reveal glass-card rounded-xl p-6 hover:border-accent-500/30 transition-all duration-300"
+          style="animation-delay: 0.1s">
+          <div class="w-12 h-12 rounded-xl bg-accent-500/20 flex items-center justify-center mb-4">
+            <i data-lucide="smartphone" class="w-6 h-6 text-accent-400"></i>
+          </div>
+          <h3 class="font-display text-lg font-bold text-white mb-4">
+            Mobile Development
+          </h3>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">React
+              Native</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">Expo</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">Android
+              Studio</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">Mobile
+              UI Design</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">Responsive
+              Design</span>
+          </div>
+        </div>
+
+        <div class="reveal glass-card rounded-xl p-6 hover:border-purple-500/30 transition-all duration-300"
+          style="animation-delay: 0.2s">
+          <div class="w-12 h-12 rounded-xl bg-purple-500/20 flex items-center justify-center mb-4">
+            <i data-lucide="server" class="w-6 h-6 text-purple-400"></i>
+          </div>
+          <h3 class="font-display text-lg font-bold text-white mb-4">
+            Backend
+          </h3>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">Node.js</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">Express.js</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">RESTful
+              API</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">PostgreSQL</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">Supabase</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">MongoDB</span>
+            <span class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">JWT
+              Auth</span>
+          </div>
+        </div>
+
+        <div class="reveal glass-card rounded-xl p-6 hover:border-green-500/30 transition-all duration-300"
+          style="animation-delay: 0.3s">
+          <div class="w-12 h-12 rounded-xl bg-green-500/20 flex items-center justify-center mb-4">
+            <i data-lucide="settings" class="w-6 h-6 text-green-400"></i>
+          </div>
+          <h3 class="font-display text-lg font-bold text-white mb-4">
+            Automation & Tools
+          </h3>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">n8n</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">Docker</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">Git</span>
+            <span class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">VS
+              Code</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">Zoho</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">Vercel</span>
+            <span
+              class="skill-tag px-3 py-1.5 rounded-lg bg-slate-800 text-slate-300 text-xs border border-white/5">Postman</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- *************************************************************************
+       PROJECTS SECTION
+       ************************************************************************* -->
+  <section id="projects" class="py-24 bg-slate-950">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16 reveal">
+        <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-white mb-4">
+          Featured <span class="gradient-text">Projects</span>
+        </h2>
+        <p class="text-slate-400 max-w-2xl mx-auto">
+          Full-stack applications showcasing AI training infrastructure,
+          mobile development, and workflow automation
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="project-card group relative overflow-hidden rounded-xl bg-slate-900 border border-white/10 reveal">
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-primary-500/20 to-accent-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+          </div>
+          <div class="relative p-5 lg:p-6 h-100 flex flex-col">
+            <div class="flex items-start justify-between mb-1">
+              <div
+                class="w-10 h-10 rounded-xl bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center">
+                <i data-lucide="target" class="w-5 h-5 text-white"></i>
+              </div>
+              <div class="flex gap-2">
+                <span class="px-3 py-1 rounded-md bg-primary-500/20 text-primary-300 text-[8px] font-medium">MVP</span>
+                <span class="px-3 py-1 rounded-md bg-accent-500/20 text-accent-300 text-[8px] font-medium">AI
+                  Training</span>
+              </div>
+            </div>
+
+            <h3 class="font-display text-xl font-bold text-white mb-3">
+              Annotrix
+            </h3>
+            <p class="text-slate-400 mb-5 text-xs">
+              AI Annotation Training Platform (MVP) - A full-stack
+              qualification platform designed to onboard and qualify AI data
+              annotators through rule-based assessments.
+            </p>
+
+            <div class="space-y-4 mb-6">
+              <div class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0"></i>
+                <span class="text-xs text-slate-300">Role-based auth (Admin/Trainee) with JWT & Row-Level
+                  Security</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0"></i>
+                <span class="text-xs text-slate-300">PostgreSQL schema with 4 core tables & foreign key
+                  constraints</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0"></i>
+                <span class="text-xs text-slate-300">Admin Dashboard for training question management</span>
+              </div>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs">React</span>
+              <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs">Node.js</span>
+              <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs">Express</span>
+              <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs">PostgreSQL</span>
+              <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs">Supabase</span>
+            </div>
+
+            <div class="flex gap-3 mx-auto mt-auto">
+              <button
+                class="flex- py-1 px-2 rounded-lg text-xs bg-primary-600 hover:bg-primary-500 text-white font-medium transition-colors flex items-center justify-center gap-2">
+                <i data-lucide="external-link" class="w-4 h-4"></i>
+                Live Demo
+              </button>
+              <button
+                class="flex- py-1 px-2 rounded-lg text-xs bg-white/5 hover:bg-white/10 text-white font-medium transition-colors flex items-center justify-center gap-2">
+                <i data-lucide="github" class="w-4 h-4"></i>
+                Source Code
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card group relative overflow-hidden rounded-xl bg-slate-900 border border-white/10 reveal">
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-accent-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+          </div>
+          <div class="relative p-5 lg:p-6 h-100 flex flex-col">
+            <div class="flex items-start justify-between mb-1">
+              <div
+                class="w-10 h-10 rounded-xl bg-gradient-to-br from-accent-500 to-purple-500 flex items-center justify-center">
+                <i data-lucide="book-open" class="w-5 h-5 text-white"></i>
+              </div>
+              <div class="flex gap-2">
+                <span class="px-3 py-1 rounded-md bg-accent-500/20 text-accent-300 text-[8px] font-medium">EdTech</span>
+                <span
+                  class="px-3 py-1 rounded-md bg-purple-500/20 text-purple-300 text-[8px] font-medium">Full-Stack</span>
+              </div>
+            </div>
+
+            <h3 class="font-display text-xl font-bold text-white mb-3">
+              Learning Management System (LMS)
+            </h3>
+            <p class="text-slate-400 mb-5 text-xs">
+              Full-stack ed-tech platform with role-based access control.
+              Features three responsive dashboards (Admin, Instructor,
+              Student).
+            </p>
+
+            <div class="space-y-4 mb-6">
+              <div class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0"></i>
+                <span class="text-xs text-slate-300">3 responsive dashboards with mobile-first design (15+
+                  screens)</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0"></i>
+                <span class="text-xs text-slate-300">MongoDB schemas with 15+ document relationships</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0"></i>
+                <span class="text-xs text-slate-300">RESTful API with 25+ endpoints & JWT middleware</span>
+              </div>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs">React</span>
+              <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs">Node.js</span>
+              <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs">MongoDB</span>
+              <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs">Tailwind CSS</span>
+            </div>
+
+            <div class="flex gap-3 mx-auto mt-auto">
+              <button
+                class="flex- py-1 px-2 rounded-lg text-xs bg-accent-600 hover:bg-accent-500 text-white font-medium transition-colors flex items-center justify-center gap-2">
+                <i data-lucide="external-link" class="w-4 h-4"></i>
+                Live Demo
+              </button>
+              <button
+                class="flex- py-1 px-2 rounded-lg text-xs bg-white/5 hover:bg-white/10 text-white font-medium transition-colors flex items-center justify-center gap-2">
+                <i data-lucide="github" class="w-4 h-4"></i>
+                Source Code
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card group relative overflow-hidden rounded-xl bg-slate-900 border border-white/10 reveal">
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-green-500/20 to-primary-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+          </div>
+          <div class="relative p-5 lg:p-6 h-100 flex flex-col">
+            <div class="flex items-start justify-between mb-1">
+              <div
+                class="w-10 h-10 rounded-xl bg-gradient-to-br from-green-500 to-primary-500 flex items-center justify-center">
+                <i data-lucide="users" class="w-5 h-5 text-white"></i>
+              </div>
+              <div class="flex gap-2">
+                <span class="px-3 py-1 rounded-md bg-green-500/20 text-green-300 text-[8px] font-medium">Team
+                  Management</span>
+                <span
+                  class="px-3 py-1 rounded-md bg-primary-500/20 text-primary-300 text-[8px] font-medium">Frontend</span>
+              </div>
+            </div>
+
+            <h3 class="font-display text-xl font-bold text-white mb-3">
+              Team Management Dashboard
+            </h3>
+            <p class="text-slate-400 mb-5 text-xs">
+              Frontend design project for team management interface. Features
+              responsive UI components, role-based access views, and real-time
+              collaboration tools.
+            </p>
+
+            <div class="space-y-4 mb-6">
+              <div class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0"></i>
+                <span class="text-xs text-slate-300">Responsive UI with Framer Motion animations</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0"></i>
+                <span class="text-xs text-slate-300">Role-based dashboard views</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0"></i>
+                <span class="text-xs text-slate-300">Real-time collaboration features</span>
+              </div>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs">React</span>
+              <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs">Material UI</span>
+              <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs">Framer Motion</span>
+              <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs">Tailwind CSS</span>
+            </div>
+
+            <div class="flex gap-3 mx-auto mt-auto">
+              <button
+                class="flex- py-1 px-2 rounded-lg text-xs bg-green-600 hover:bg-green-500 text-white font-medium transition-colors flex items-center justify-center gap-2">
+                <i data-lucide="external-link" class="w-4 h-4"></i>
+                Live Demo
+              </button>
+              <button
+                class="flex- py-1 px-2 rounded-lg text-xs bg-white/5 hover:bg-white/10 text-white font-medium transition-colors flex items-center justify-center gap-2">
+                <i data-lucide="github" class="w-4 h-4"></i>
+                Source Code
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card group relative overflow-hidden rounded-xl bg-slate-900 border border-white/10 reveal">
+          <div
+            class="absolute inset-0 bg-gradient-to-br from-yellow-500/20 to-green-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+          </div>
+          <div class="relative p-5 lg:p-6 h-100 flex flex-col">
+            <div class="flex items-start justify-between mb-1">
+              <div
+                class="w-10 h-10 rounded-xl bg-gradient-to-br from-yellow-500 to-green-500 flex items-center justify-center">
+                <i data-lucide="calculator" class="w-5 h-5 text-white"></i>
+              </div>
+              <div class="flex gap-2">
+                <span
+                  class="px-3 py-1 rounded-md bg-yellow-500/20 text-yellow-300 text-[8px] font-medium">Financial</span>
+                <span class="px-3 py-1 rounded-md bg-green-500/20 text-green-300 text-[8px] font-medium">Frontend</span>
+              </div>
+            </div>
+
+            <h3 class="font-display text-xl font-bold text-white mb-3">
+              Tax Calculation Web Interface
+            </h3>
+            <p class="text-slate-400 mb-5 text-xs">
+              Financial data processing frontend with dynamic form validation
+              and real-time error handling. Built with modular component
+              architecture.
+            </p>
+
+            <div class="space-y-4 mb-6">
+              <div class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0"></i>
+                <span class="text-xs text-slate-300">Dynamic form validation & real-time error handling</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0"></i>
+                <span class="text-xs text-slate-300">Modular component architecture</span>
+              </div>
+              <div class="flex items-start gap-3">
+                <i data-lucide="check-circle" class="w-5 h-5 text-green-400 mt-0.5 flex-shrink-0"></i>
+                <span class="text-xs text-slate-300">Client-side calculation logic</span>
+              </div>
+            </div>
+
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs">React</span>
+              <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs">JavaScript</span>
+              <span class="px-3 py-1 rounded-lg bg-slate-800 text-slate-300 text-xs">Tailwind CSS</span>
+            </div>
+
+            <div class="flex gap-3 mx-auto mt-auto">
+              <button
+                class="flex- py-1 px-2 rounded-lg text-xs bg-yellow-600 hover:bg-yellow-500 text-white font-medium transition-colors flex items-center justify-center gap-2">
+                <i data-lucide="external-link" class="w-4 h-4"></i>
+                Live Demo
+              </button>
+              <button
+                class="flex- py-1 px-2 rounded-lg text-xs bg-white/5 hover:bg-white/10 text-white font-medium transition-colors flex items-center justify-center gap-2">
+                <i data-lucide="github" class="w-4 h-4"></i>
+                Source Code
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- *************************************************************************
+       EXPERIENCE SECTION
+       ************************************************************************* -->
+  <section id="experience" class="py-24 bg-slate-900/50 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-16 reveal">
+        <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-white mb-4">
+          Professional <span class="gradient-text">Experience</span>
+        </h2>
+        <p class="text-slate-400 max-w-2xl mx-auto">
+          Combining technical expertise with customer service and marketing
+          experience
+        </p>
+      </div>
+
+      <div class="relative max-w-4xl mx-auto">
+        <div class="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 timeline-line transform md:-translate-x-1/2"></div>
+
+        <div class="relative mb-12 reveal">
+          <div class="md:flex items-center justify-between">
+            <div class="md:w-5/12 md:text-right md:pr-8 mb-4 md:mb-0">
+              <div class="glass-card rounded-xl p-6 inline-block text-left md:text-right">
+                <span class="text-primary-400 text-sm font-medium">2023 - Present</span>
+                <h3 class="text-xl font-bold text-white mt-1">
+                  AI Training Data Specialist
+                </h3>
+                <p class="text-slate-400 text-sm mt-1">
+                  Outlier, OneForma, Welo Data
+                </p>
+                <p class="text-slate-500 text-xs mt-1">Remote • Contract</p>
+              </div>
+            </div>
+
+            <div
+              class="absolute left-4 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-primary-500 border-4 border-slate-900 z-10">
+            </div>
+
+            <div class="md:w-5/12 md:pl-8 ml-12 md:ml-0">
+              <div class="space-y-2">
+                <div class="flex items-start gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-primary-400 mt-1 flex-shrink-0"></i>
+                  <span class="text-slate-400 text-sm">Completed 1000+ annotation tasks across computer vision
+                    and NLP projects</span>
+                </div>
+                <div class="flex items-start gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-primary-400 mt-1 flex-shrink-0"></i>
+                  <span class="text-slate-400 text-sm">Maintained 95%+ accuracy ratings and strict quality
+                    standards</span>
+                </div>
+                <div class="flex items-start gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-primary-400 mt-1 flex-shrink-0"></i>
+                  <span class="text-slate-400 text-sm">Specialized in educational content labeling and document
+                    transcription</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative mb-12 reveal">
+          <div class="md:flex items-center justify-between">
+            <div class="md:w-5/12 md:pr-8 mb-4 md:mb-0 order-1 md:order-1">
+              <div class="space-y-2 md:text-right">
+                <div class="flex items-start gap-2 md:flex-row-reverse">
+                  <i data-lucide="check" class="w-4 h-4 text-accent-400 mt-1 flex-shrink-0"></i>
+                  <span class="text-slate-400 text-sm">Delivered exceptional customer support for insurance
+                    products</span>
+                </div>
+                <div class="flex items-start gap-2 md:flex-row-reverse">
+                  <i data-lucide="check" class="w-4 h-4 text-accent-400 mt-1 flex-shrink-0"></i>
+                  <span class="text-slate-400 text-sm">Managed client relationships and policy inquiries</span>
+                </div>
+                <div class="flex items-start gap-2 md:flex-row-reverse">
+                  <i data-lucide="check" class="w-4 h-4 text-accent-400 mt-1 flex-shrink-0"></i>
+                  <span class="text-slate-400 text-sm">Maintained high customer satisfaction ratings</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="absolute left-4 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-accent-500 border-4 border-slate-900 z-10">
+            </div>
+
+            <div class="md:w-5/12 md:pl-8 ml-12 md:ml-0 order-2 md:order-2">
+              <div class="glass-card rounded-xl p-6">
+                <span class="text-accent-400 text-sm font-medium">2024</span>
+                <h3 class="text-xl font-bold text-white mt-1">
+                  Customer Service Representative
+                </h3>
+                <p class="text-slate-400 text-sm mt-1">Insurance Company</p>
+                <p class="text-slate-500 text-xs mt-1">On-site • Full-time</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative mb-12 reveal">
+          <div class="md:flex items-center justify-between">
+            <div class="md:w-5/12 md:text-right md:pr-8 mb-4 md:mb-0">
+              <div class="glass-card rounded-xl p-6 inline-block text-left md:text-right">
+                <span class="text-purple-400 text-sm font-medium">2022</span>
+                <h3 class="text-xl font-bold text-white mt-1">
+                  Marketing Associate
+                </h3>
+                <p class="text-slate-400 text-sm mt-1">Insurance Company</p>
+                <p class="text-slate-500 text-xs mt-1">On-site • Full-time</p>
+              </div>
+            </div>
+
+            <div
+              class="absolute left-4 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-purple-500 border-4 border-slate-900 z-10">
+            </div>
+
+            <div class="md:w-5/12 md:pl-8 ml-12 md:ml-0">
+              <div class="space-y-2">
+                <div class="flex items-start gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-purple-400 mt-1 flex-shrink-0"></i>
+                  <span class="text-slate-400 text-sm">Developed marketing campaigns for insurance
+                    products</span>
+                </div>
+                <div class="flex items-start gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-purple-400 mt-1 flex-shrink-0"></i>
+                  <span class="text-slate-400 text-sm">Managed digital marketing channels and client
+                    outreach</span>
+                </div>
+                <div class="flex items-start gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-purple-400 mt-1 flex-shrink-0"></i>
+                  <span class="text-slate-400 text-sm">Created promotional content and sales materials</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative reveal">
+          <div class="md:flex items-center justify-between">
+            <div class="md:w-5/12 md:pr-8 mb-4 md:mb-0 order-1 md:order-1">
+              <div class="space-y-2 md:text-right">
+                <div class="flex items-start gap-2 md:flex-row-reverse">
+                  <i data-lucide="check" class="w-4 h-4 text-green-400 mt-1 flex-shrink-0"></i>
+                  <span class="text-slate-400 text-sm">Managed digitization with upload of 500+ academic
+                    documents</span>
+                </div>
+                <div class="flex items-start gap-2 md:flex-row-reverse">
+                  <i data-lucide="check" class="w-4 h-4 text-green-400 mt-1 flex-shrink-0"></i>
+                  <span class="text-slate-400 text-sm">Designed metadata schemas achieving 99% data
+                    accuracy</span>
+                </div>
+                <div class="flex items-start gap-2 md:flex-row-reverse">
+                  <i data-lucide="check" class="w-4 h-4 text-green-400 mt-1 flex-shrink-0"></i>
+                  <span class="text-slate-400 text-sm">Developed automated JavaScript scripts reducing workload
+                    by 40%</span>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="absolute left-4 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-green-500 border-4 border-slate-900 z-10">
+            </div>
+
+            <div class="md:w-5/12 md:pl-8 ml-12 md:ml-0 order-2 md:order-2">
+              <div class="glass-card rounded-xl p-6">
+                <span class="text-green-400 text-sm font-medium">Previous Role</span>
+                <h3 class="text-xl font-bold text-white mt-1">
+                  Information Digitization Assistant
+                </h3>
+                <p class="text-slate-400 text-sm mt-1">
+                  Kwara State University Library
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- *************************************************************************
+       EDUCATION & CERTIFICATIONS SECTION
+       ************************************************************************* -->
+  <section class="py-24 bg-slate-950">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-16">
+        <div class="reveal">
+          <h3 class="font-display text-2xl font-bold text-white mb-8 flex items-center gap-3">
+            <i data-lucide="graduation-cap" class="w-8 h-8 text-primary-400"></i>
+            Education
+          </h3>
+
+          <div class="space-y-6">
+            <div class="glass-card rounded-xl p-6 border-l-4 border-primary-500">
+              <div class="flex justify-between items-start mb-2">
+                <h4 class="text-lg font-bold text-white">
+                  Bachelor of Library and Information Science (BLIS)
+                </h4>
+                <span class="text-sm text-slate-500">2020 - 2023</span>
+              </div>
+              <p class="text-slate-400">Kwara State University, Malete</p>
+              <p class="text-slate-500 text-sm mt-2">
+                Foundation in information systems, metadata management, and
+                data organization principles directly applicable to AI
+                training data infrastructure.
+              </p>
+            </div>
+
+            <div class="glass-card rounded-xl p-6 border-l-4 border-accent-500">
+              <div class="flex justify-between items-start mb-2">
+                <h4 class="text-lg font-bold text-white">
+                  National Diploma (ND)
+                </h4>
+                <span class="text-sm text-slate-500">2017 - 2019</span>
+              </div>
+              <p class="text-slate-400">Kwara State Polytechnic, Ilorin</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <h3 class="font-display text-2xl font-bold text-white mb-8 flex items-center gap-3">
+            <i data-lucide="award" class="w-8 h-8 text-accent-400"></i>
+            Certifications
+          </h3>
+
+          <div class="grid gap-4">
+            <div
+              class="glass-card rounded-xl p-5 flex items-center gap-4 hover:border-primary-500/30 transition-colors">
+              <div class="w-12 h-12 rounded-xl bg-blue-500/20 flex items-center justify-center flex-shrink-0">
+                <i data-lucide="shield-check" class="w-6 h-6 text-blue-400"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-white">
+                  JavaScript Application Programming
+                </h4>
+                <p class="text-slate-500 text-sm">
+                  Cisco Networking Academy • 2024
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="glass-card rounded-xl p-5 flex items-center gap-4 hover:border-primary-500/30 transition-colors">
+              <div class="w-12 h-12 rounded-xl bg-green-500/20 flex items-center justify-center flex-shrink-0">
+                <i data-lucide="code" class="w-6 h-6 text-green-400"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-white">
+                  JavaScript Application Programming
+                </h4>
+                <p class="text-slate-500 text-sm">Saylor Academy</p>
+              </div>
+            </div>
+
+            <div
+              class="glass-card rounded-xl p-5 flex items-center gap-4 hover:border-primary-500/30 transition-colors">
+              <div class="w-12 h-12 rounded-xl bg-purple-500/20 flex items-center justify-center flex-shrink-0">
+                <i data-lucide="terminal" class="w-6 h-6 text-purple-400"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-white">
+                  JavaScript Programming
+                </h4>
+                <p class="text-slate-500 text-sm">Alison</p>
+              </div>
+            </div>
+
+            <div
+              class="glass-card rounded-xl p-5 flex items-center gap-4 hover:border-primary-500/30 transition-colors">
+              <div class="w-12 h-12 rounded-xl bg-orange-500/20 flex items-center justify-center flex-shrink-0">
+                <i data-lucide="users" class="w-6 h-6 text-orange-400"></i>
+              </div>
+              <div>
+                <h4 class="font-semibold text-white">
+                  Customer Relationship Management
+                </h4>
+                <p class="text-slate-500 text-sm">
+                  HP LIFE Foundation • 2024
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- *************************************************************************
+       CONTACT SECTION
+       ************************************************************************* -->
+  <section id="contact" class="py-24 bg-slate-900/50 relative overflow-hidden">
+    <div
+      class="absolute inset-0 bg-[radial-gradient(circle_at_bottom,_var(--tw-gradient-stops))] from-primary-500/10 via-transparent to-transparent">
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div class="text-center mb-16 reveal">
+        <h2 class="font-display text-3xl sm:text-4xl font-bold tracking-tight text-white mb-4">
+          Get In <span class="gradient-text">Touch</span>
+        </h2>
+        <p class="text-slate-400 max-w-2xl mx-auto">
+          Open to frontend, backend, full-stack, mobile development, or AI
+          infrastructure roles
+        </p>
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+        <div class="reveal space-y-6">
+          <div class="glass-card rounded-xl px-6 flex items-center gap-4 hover:border-primary-500/30 transition-all">
+            <div class="w-14 h-14 rounded-xl bg-primary-500/20 flex items-center justify-center">
+              <i data-lucide="mail" class="w-6 h-6 text-primary-400"></i>
+            </div>
+            <div>
+              <p class="text-slate-500 text-sm">Email</p>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adeniyisunday2244@gmail.com" target="_blank"
+                class="text-white font-medium hover:text-primary-400 transition-colors">adeniyisunday2244@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="glass-card rounded-xl px-6 flex items-center gap-4 hover:border-accent-500/30 transition-all">
+            <div class="w-14 h-14 rounded-xl bg-accent-500/20 flex items-center justify-center">
+              <i data-lucide="phone" class="w-6 h-6 text-accent-400"></i>
+            </div>
+            <div>
+              <p class="text-slate-500 text-sm">Phone</p>
+              <a href="tel:+2348101065034" class="text-white font-medium hover:text-accent-400 transition-colors">+234
+                810 106 5034</a>
+            </div>
+          </div>
+
+          <div class="glass-card rounded-xl px-6 flex items-center gap-4 hover:border-purple-500/30 transition-all">
+            <div class="w-14 h-14 rounded-xl bg-purple-500/20 flex items-center justify-center">
+              <i data-lucide="map-pin" class="w-6 h-6 text-purple-400"></i>
+            </div>
+            <div>
+              <p class="text-slate-500 text-sm">Location</p>
+              <p class="text-white font-medium">
+                Mayfair Roundabout, Ile-Ife, Osun State, Nigeria
+              </p>
+            </div>
+          </div>
+
+          <div class="glass-card rounded-xl px-6 flex items-center gap-4 hover:border-blue-500/30 transition-all">
+            <div class="w-14 h-14 rounded-xl bg-blue-500/20 flex items-center justify-center">
+              <i><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                  class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                </svg>
+              </i>
+            </div>
+            <div>
+              <p class="text-slate-500 text-sm">LinkedIn</p>
+              <a href="www.linkedin.com/in/bankole-olaniyi-427b34291" target="_blank"
+                class="text-white font-medium hover:text-blue-400 transition-colors">linkedin.com/in/bankole-olaniyi</a>
+            </div>
+          </div>
+          <div class="glass-card rounded-xl px-6 flex items-center gap-4 hover:border-green-500/30 transition-all">
+            <div class="w-14 h-14 rounded-xl bg-green-500/20 flex items-center justify-center">
+              <i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-whatsapp" viewBox="0 0 16 16">
+                  <path
+                    d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                </svg>
+              </i>
+            </div>
+            <div>
+              <p class="text-slate-500 text-sm">Whatsapp</p>
+              <a href="https://api.whatsapp.com/send?phone=2348101065034&text=" target="_blank"
+                class="text-white font-medium hover:text-green-400 transition-colors">+234 810 106 5034</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <form class="glass-card rounded-xl p-6 lg:px-8 space-y-2" id="contact-form">
+            <input type="hidden" name="access_key" value="cae668dd-0a1d-4223-9342-b0f038654b49" />
+            <input type="hidden" name="subject" value="New Portfolio Contact Message" />
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none" />
+            <div>
+              <label class="block text-sm font-medium text-slate-300 mb-2">Name</label>
+              <input type="text" name="name" required
+                class="w-full py-2 px-4 rounded-lg text-sm bg-slate-800/50 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-primary-500 transition-colors"
+                placeholder="Your name" />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-slate-300 mb-2">Email</label>
+              <input type="email" name="email" required
+                class="w-full py-2 px-4 rounded-lg text-sm bg-slate-800/50 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-primary-500 transition-colors"
+                placeholder="your@email.com" />
+            </div>
+
+            <div>
+              <label class="block text-sm font-medium text-slate-300 mb-2">Message</label>
+              <textarea name="message" required rows="4"
+                class="w-full px-4 py-2 rounded-lg text-sm bg-slate-800/50 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-primary-500 transition-colors resize-none"
+                placeholder="Tell me about your project..."></textarea>
+            </div>
+
+            <button type="submit"
+              class="w-full py-4 rounded-xl bg-gradient-to-r from-primary-600 to-accent-600 text-white font-semibold hover:shadow-lg hover:shadow-primary-500/25 transition-all hover:scale-[1.02] flex items-center justify-center gap-2">
+              <i data-lucide="send" class="w-5 h-5"></i>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- *************************************************************************
+       FOOTER SECTION
+       ************************************************************************* -->
+  <footer class="py-8 bg-slate-950 border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+        <div class="flex items-center gap-2">
+          <div
+            class="w-8 h-8 rounded-lg bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center">
+            <span class="text-white font-bold text-sm font-display">B</span>
+          </div>
+          <span class="font-display font-bold text-lg text-white">Bankole<span
+              class="text-primary-400">.dev</span></span>
+        </div>
+
+        <p class="text-slate-500 text-sm">
+          © <span id="current-year"></span> Bankole Olaniyi Sunday. All rights reserved.
+        </p>
+
+        <div class="flex gap-4">
+          <a href="www.linkedin.com/in/bankole-olaniyi-427b34291" target="_blank"
+            class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 transition-all">
+            <i data-lucide="linkedin" class="w-5 h-5"></i>
+          </a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=adeniyisunday2244@gmail.com" target="_blank"
+            class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 transition-all">
+            <i data-lucide="mail" class="w-5 h-5"></i>
+          </a>
+          <a href="tel:+2348101065034"
+            class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-slate-400 hover:text-white hover:bg-white/10 transition-all">
+            <i data-lucide="phone" class="w-5 h-5"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="commonninja_component pid-9590e25d-dfaf-4c9f-8cd1-051756aeef4d p-2">
+  </div>
+
+  <!-- Back to Top -->
+  <button id="back-to-top"
+    class="fixed bottom-8 right-8 z-50 p-2 rounded-full bg-gradient-to-r from-primary-600 to-accent-600 text-white shadow-lg hover:scale-110 transition-all duration-300 opacity-0 pointer-events-none backdrop-blur-sm border border-white/10"
+    aria-label="Back to top">
+    <i data-lucide="arrow-up" class="w-6 h-6"></i>
+  </button>
+  <script src="./lucide-script.js"></script>
+  <script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
